@@ -7,6 +7,7 @@ class Node:
     def __init__(self, val, next_node=None):
         self.val = val
         self.next_node = next_node
+        
 
     def __repr__(self):
         return 'Node({0})'.format(self.val)
@@ -37,6 +38,6 @@ class LinkedList:
         while (_current_node):
             yield _current_node
             _current_node = _current_node.next_node
-        
+
 
 
