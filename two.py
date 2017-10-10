@@ -77,3 +77,5 @@ class LinkedList:
         for item in alist:
             self.add(item)
         return self
+    #this is awesome
+    #there is nothing that
